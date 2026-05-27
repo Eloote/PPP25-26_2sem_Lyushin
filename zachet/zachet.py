@@ -38,7 +38,7 @@ def game(min_num, max_num, attempts):
 
         if guess == secret:
             print(f"\nВы угадали число {secret} за {attempt} попыток")
-            return "win"
+            return
         elif guess < secret:
             print("Загаданное число БОЛЬШЕ >")
         else:
