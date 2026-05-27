@@ -46,7 +46,7 @@ def game(min_num, max_num, attempts):
 
     print(f"\nЧисло попыток исчерпано")
     print(f"Было загадано: {secret}")
-    return "lose"
+    return
 
 def main():
     while True:
